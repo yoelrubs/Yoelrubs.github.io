@@ -6,45 +6,100 @@
     <title>Yoel Rubinstein - Composer & Conductor</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Additional CSS styles for centering header, videos, and horizontal navigation */
+        /* Additional CSS styles for a more professional look */
         body {
-            text-align: center;
-        }
-        
-        header {
-            margin: 40px 0;
-        }
-        
-        header h1, header p {
-            margin: 0; /* Remove default margins */
-        }
-        
-        .video-container {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-            justify-content: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
             padding: 0;
         }
-        
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        nav ul {
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
         nav ul li {
             margin-right: 20px;
         }
-        
+
         nav ul li:last-child {
             margin-right: 0;
         }
-        
-        /* Styles to align secondary titles on the left */
-        section h2 {
-            text-align: left;
-            margin-left: 20px; /* Add some spacing to the left */
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
         }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 40px 0;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 56.25%;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* ... More custom styles ... */
     </style>
 </head>
 <body>
